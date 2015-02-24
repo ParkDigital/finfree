@@ -1,0 +1,43 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#chapter-map { height: 300px; width: 100%; display: block; }
+#chapter-selection {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.chapter-country-wrapper,
+.chapter-city-wrapper {
+	width: 100%;
+     height: 34px;
+     overflow: hidden;
+     background: url(../images/down_arrow_select.jpg) no-repeat right #ddd;
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
+     margin-bottom: 17px;
+}
+.chapter-country,
+.chapter-city {
+	background: transparent;
+     width: 100%;
+     padding: 5px;
+     font-size: 16px;
+     border: 1px solid #ccc;
+     height: 34px;
+}
+#chapter-map {
+	display: block;
+}
+#chapter-map-infowindow-content {
+     width: 180px;
+}
+#chapter-map-infowindow-content h2 {
+	font-family:'HelveticaNeueLTStdMedBold', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+#chapter-map-infowindow-content p {
+	font-family:'HelveticaNeueLTStdRegular', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+}
